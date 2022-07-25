@@ -4,6 +4,6 @@ public class Sample2 {
 	    int i = 1;
         int j = ++i;
 		
-		assertThat( j, is(0) );
+		assertThat( j, is(2) );
     }
 }
