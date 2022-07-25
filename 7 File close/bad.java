@@ -3,7 +3,6 @@ public static void writeToFile() {
     try {
         fr = new FileWriter("out.txt");
         fr.append("String to write file");
-        fr = null;
     } catch (IOException e) {
         e.printStackTrace();
     }
