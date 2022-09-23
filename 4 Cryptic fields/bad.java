@@ -1,3 +1,3 @@
-if (entity.bt == "LOC" && entity.bp_type == "CT") {
+if (entity.bt == LOC && entity.bp_type == CT) {
     addBonus();
 }

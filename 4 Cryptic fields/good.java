@@ -3,9 +3,9 @@ if (isLocalBranch(entity) && isCustomer(entity)) {
 }
 
 private boolean isLocalBranch(Entity entity) {
-    return entity.bt == "LOC";
+    return entity.bt == LOC;
 }
 
 private boolean isCustomer(Entity entity){
-    return entity.bp_type == "CT";
+    return entity.bp_type == CT;
 }
